@@ -11,6 +11,8 @@ import WonBanner from '../WonBanner/WonBanner';
 import LostBanner from '../LostBanner/LostBanner';
 import Keyboard from '../Keyboard';
 
+// fun goal would be to not allow a guess that wasn't on the list so you couldn't put in random letters
+
 function Game() {
   const [answer, setAnswer] = React.useState(() => sample(WORDS));
   // make it easy to test and debug
